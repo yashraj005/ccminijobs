@@ -19,7 +19,7 @@ app.use(express.json());
 
 // MongoDB Connection
 mongoose.connect(
-  "mongodb+srv://yashraj:%40Yash5505@mini.bg3kzc2.mongodb.net/"
+  "mongodb+srv://yashraj:%40Yash5505@mini.bg3kzc2.mongodb.net/mini?retryWrites=true&w=majority"
 )
 .then(() => console.log("✅ Connected to MongoDB Atlas"))
 .catch((err) => console.error("❌ MongoDB connection error:", err));
