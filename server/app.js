@@ -19,10 +19,10 @@ app.use(express.json());
 
 // MongoDB Connection
 mongoose.connect(
-  'mongodb+srv://yashrajkajale9:VFL8VxNTi6E2Jexg@cluster2.fddexvo.mongodb.net/mini?retryWrites=true&w=majority'
+  "mongodb+srv://yashraj:%40Yash5505@mini.bg3kzc2.mongodb.net/"
 )
-.then(() => console.log('✅ Connected to MongoDB Atlas'))
-.catch((err) => console.error('❌ MongoDB connection error:', err));
+.then(() => console.log("✅ Connected to MongoDB Atlas"))
+.catch((err) => console.error("❌ MongoDB connection error:", err));
 // ------------------ ROUTES ------------------
 
 // Basic test route
